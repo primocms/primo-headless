@@ -12,3 +12,9 @@ npm run dev
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+
+## How it works
+* [`/routes/+layout.js`](https://github.com/mateomorris/primo-headless/blob/master/src/routes/%2Blayout.js) fetches the Primo site object 
+* [`/routes/+page.svelte`](https://github.com/mateomorris/primo-headless/blob/master/src/routes/%2Bpage.svelte) accesses the site object to list the blog posts
+* [`/routes/blog/post/+pages.svelte`](https://github.com/mateomorris/primo-headless/blob/master/src/routes/blog/%5Bpost%5D/%2Bpage.svelte) accesses the site object to pull out the blog post title, image, and body
+
