@@ -1,8 +1,8 @@
 # Primo headless
 
-This repo demonstrates how you can consume a Primo site's data from SvelteKit (or a similar framework). If you'd like to serve Primo pages from your SvelteKit app, check out [primo-headless](https://github.com/primocms/primo-headless).
+This repo demonstrates how you can consume a Primo site's data from SvelteKit (or a similar framework). If you'd like to serve Primo pages from your SvelteKit app, check out [sveltekit-with-primo](https://github.com/primocms/sveltekit-with-primo).
 
-In this case, it's used to list blog posts and render individual blog posts. The content is server-side rendered or can be statically rendered from SvetleKit. 
+In this case, it's used to list blog posts and render individual blog posts. The content is server-side rendered or can be statically rendered from SvelteKit. 
 
 ## Developing
 
